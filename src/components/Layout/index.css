@@ -1,0 +1,88 @@
+* {
+    font-family: 'inter';
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    padding: 20px 10px 10px 25px;
+    height: 96vh;
+}
+
+
+.logo-container {
+    width: 25%;
+    height: 100%;
+    color: #ffffff;
+}
+.playlist-container {
+    width: 40%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.player-container {
+    width: 35%;
+    height: 100%;
+    color: #ffffff;
+}
+.musiclist-header-container {
+    display: flex;
+    gap: 20px;
+    
+}
+.for-you-header {
+    font-size: 22px;
+    width: 88px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+
+.top-tracks-header {
+    font-size: 22px;
+    width: 200px;
+    height: 32px;
+    color: gray;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 250px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2);
+  }
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+  }
+
+  .no-song-selected {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+  }

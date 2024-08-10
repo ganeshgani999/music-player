@@ -1,0 +1,15 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+.profile {
+    width: 48px; 
+    height: 48px;
+}
